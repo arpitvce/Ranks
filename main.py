@@ -20,6 +20,10 @@ def getstudents(table:str,branch:str):
                 curr.execute(f'SELECT * FROM {table} WHERE branch = \'{branch}\' ORDER BY cgpa DESC')
                 return curr.fetchall()
 
+@app.get("/")
+def root():
+    return {"message": "Hello"}
+
 @app.get("/cse")
 def csestudents():
     arr=list()
