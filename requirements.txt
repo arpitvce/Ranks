@@ -8,9 +8,8 @@ idna==3.20
 numpy==2.5.3
 opentelemetry-api==1.45.1
 pandas==3.0.6
-psycopg==3.3.6
+psycopg[binary]==3.3.6
 psycopg-pool==3.3.3
-pycopg==1.2.0
 pydantic==2.13.5
 pydantic_core==2.46.5
 python-dateutil==2.9.0.post0
@@ -22,3 +21,4 @@ tenacity==9.1.4
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 uvicorn==0.54.0
+
